@@ -33,7 +33,7 @@ public class SpawnManager : MonoBehaviour {
             {
                 var randi = (float)random.NextDouble() / 2 + 0.5f;
                 var randj = (float)random.NextDouble() / 2 + 0.5f;
-                GameObject obj = Instantiate<GameObject>(spawnPrefab, new Vector3(i *1+ randi, 0, j *1+ randj), Quaternion.identity);
+                GameObject obj = Instantiate<GameObject>(spawnPrefab, new Vector3(i *1+ randi, 0, j *1+ randj-7), Quaternion.identity);
 
                 if (j == gridHeight - 1)
                 {
