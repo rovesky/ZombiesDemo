@@ -25,7 +25,7 @@ public class SpawnManager : MonoBehaviour {
         {
             for(int j = 0; j < gridHeight; j++)
             {
-                Instantiate<GameObject>(spawnPrefab, new Vector3(i * 2, 0, j * 2), Quaternion.identity);
+                Instantiate<GameObject>(spawnPrefab, new Vector3(i * 1, 0, j * 1), Quaternion.identity);
             }
         }
     }
